@@ -3,6 +3,8 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 75px; 
+
 }
 
 
@@ -36,7 +38,7 @@ body::-webkit-scrollbar {
 
 h1.underline-line {
   position: relative;
-  display: inline-block; /* Ensure ::after is positioned relative to h1 size */
+  display: inline-block; 
 }
 
 h1.underline-line::after {
@@ -46,14 +48,14 @@ h1.underline-line::after {
   left: 50%;
   transform: translate(-50%, 0);
   width: 1px;
-  height: 60px; /* adjust as needed */
+  height: 60px; 
   background-color: #7c3aed;
 }
 
 h1.underline-line::before {
   content: "";
   position: absolute;
-  top: calc(100% + 65px); /* start at the bottom of the line */
+  top: calc(100% + 65px); 
   left: 50%;
   transform: translate(-50%, -50%);
   width: 10px;
@@ -111,6 +113,19 @@ h1.underline-line::before {
     .purple-button {
 
       @apply text-center font-medium text-[14px] capitalize mb-7 text-purple-600 bg-purple-300/40 w-25 rounded-full py-2
+
+    }
+
+    .project-button {
+
+      @apply text-center font-bold text-[13px] capitalize text-gray-600 bg-gray-100 w-19 rounded-full py-1
+
+    }
+
+
+    .card {
+
+      @apply w-120 h-120 flex items-center bg-gray-50 justify-center rounded-2xl transition-colors duration-300 group-hover:bg-gray-200 shadow-md
 
     }
 
