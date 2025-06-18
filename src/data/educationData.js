@@ -14,7 +14,7 @@ const educationData = [
   {
     id: 2,
     title: "IT Academy",
-    date: "Sep 2020 – Jun 2021",
+    date: "Sep 2021 – Jun 2022",
     subtitle: "IT Academy Certificate | Cambridge English Certificate",
     description: `
       Completed a practical training program focused on Python programming,

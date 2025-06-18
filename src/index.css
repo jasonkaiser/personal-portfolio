@@ -6,35 +6,10 @@ html {
 }
 
 
-
-::-webkit-scrollbar {
-  width: 8px;
+body::-webkit-scrollbar {
+  display: none; 
 }
 
-
-::-webkit-scrollbar-button {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #7c3aed; 
-  border-radius: 10px;
-  border: 2px solid transparent;
-  background-clip: content-box;
-}
-
-
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #7c3aed transparent;
-}
 
 .underline-line::after {
   content: "";
@@ -59,7 +34,34 @@ html {
   border: solid 1.5px #7c3aed;
 }
 
+h1.underline-line {
+  position: relative;
+  display: inline-block; /* Ensure ::after is positioned relative to h1 size */
+}
 
+h1.underline-line::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 1px;
+  height: 60px; /* adjust as needed */
+  background-color: #7c3aed;
+}
+
+h1.underline-line::before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 65px); /* start at the bottom of the line */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: rgba(216, 180, 254, 0.4);
+  border-radius: 50%;
+  border: solid 1.5px #7c3aed;
+}
 
 
 @layer components {
@@ -98,6 +100,17 @@ html {
     .skill-icon-background {
 
         @apply w-20 h-20 mt-5 flex items-center justify-center rounded-2xl transition-colors duration-300 group-hover:bg-gray-200;
+
+    }
+
+    .mobile-icon {
+      @apply fill-gray-700 hover:fill-gray-400 transition duration-300
+
+    }
+
+    .purple-button {
+
+      @apply text-center font-medium text-[14px] capitalize mb-7 text-purple-600 bg-purple-300/40 w-25 rounded-full py-2
 
     }
 
