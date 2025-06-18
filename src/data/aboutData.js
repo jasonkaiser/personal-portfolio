@@ -1,11 +1,37 @@
-const aboutText = `
-I'm a second-year Information Technology student at the International Burch University (IBU), specializing in full-stack development with a strong foundation in both front-end and back-end technologies. My passion lies in building complete, user-focused web applications that are not only functional but also visually engaging.
+const aboutData = [
+    
+    {
+        id: "1",
+        title: "General",
+        text: "I'm a curious and driven individual who’s passionate about learning and building. I enjoy solving problems and turning ideas into reality through code. My approach balances creativity and structure to produce clean, effective work. Whether working solo or with a team, I stay focused and detail-oriented."
 
-In addition to my technical coursework, I have hands-on experience with graphic design and UI/UX prototyping using tools like Figma. This allows me to bridge the gap between design and development, ensuring that the user experience is always intuitive and aesthetically pleasing.
+    },
 
-Beyond academics, I’ve had the opportunity to assist and guide fellow students by providing instruction in Java Object-Oriented Programming (OOP). This experience has sharpened my ability to communicate complex technical concepts clearly, work collaboratively, and foster a positive learning environment skills that are equally valuable in real-world development teams.
+    {
+        id: "2",
+        title: "Mission",
+        text: "My mission is to grow both personally and professionally while creating digital experiences that have real-world impact. I aim to develop projects that are not just functional, but meaningful. I believe in constant learning and pushing boundaries in everything I do. Every step forward is a chance to improve myself and what I build."
+        
+    },
+    {
+        id: "3",
+        title: "Flexible",
+        text: "I adapt quickly to new environments, technologies, and challenges. Flexibility is one of my strongest traits — whether the task changes, the team shifts, or a new tool is introduced, I’m ready to adjust. I see change as an opportunity for growth. Being versatile helps me thrive in both structured and fast-paced settings."
+        
+    },
+    {
+        id: "4",
+        title: "History",
+        text: "My journey began with a deep interest in how technology works behind the scenes. Over time, I’ve built a solid foundation in web development and problem-solving through hands-on projects and constant learning. Each challenge I’ve faced has shaped my skills and mindset. My history is a mix of trial, error, and evolution."
+        
+    },
+    {
+        id: "5",
+        title: "Teamwork",
+        text: "I strongly value collaboration and believe the best ideas come from open communication and shared effort. I enjoy working in teams where everyone contributes and supports each other’s growth. I listen, give feedback, and stay committed to the common goal. Good teamwork creates great results — and even better experiences.."
+        
+    }
 
-I'm a fast learner, highly adaptable, and deeply committed to continuous improvement. Whether it's solving backend logic, optimizing user interfaces, or exploring new technologies, I’m always eager to take on new challenges and expand my skill set. My goal is to contribute meaningfully to projects that make an impact, while constantly evolving as a developer and problem solver.
-`;
+]
 
-export default aboutText;
+export default aboutData;
