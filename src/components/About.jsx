@@ -37,7 +37,8 @@ const About = () => {
 
         <h1 className="section-title lg:mb-30">About me</h1>
 
-    <AnimatedContent
+          <div className="overflow-x-hidden">
+<AnimatedContent
                         distance={240}
                         direction="horizontal"
                         reverse={true}
@@ -135,6 +136,9 @@ const About = () => {
 
         </div>
         </AnimatedContent>
+
+
+          </div>
       </div>
       
     </section>

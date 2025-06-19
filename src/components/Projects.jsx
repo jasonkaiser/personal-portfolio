@@ -20,7 +20,8 @@ const Projects = () => {
 
                 {projectsData.map((item) => (
 
-                    <AnimatedContent
+                    <div className="overflow-x-hidden">
+                   <AnimatedContent
                         distance={240}
                         direction="vertical"
                         reverse={false}
@@ -91,6 +92,10 @@ const Projects = () => {
                         
                         </div>
                         </AnimatedContent>
+
+
+                    </div> 
+
                     ))}
 
                 </div>

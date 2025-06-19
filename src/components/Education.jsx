@@ -16,7 +16,7 @@ const Education = () => {
                 
                        {educationData.map((item => (
 
-                     
+                <div className="overflow-x-hidden">
                     <AnimatedContent
                         distance={240}
                         direction="horizontal"
@@ -63,6 +63,8 @@ const Education = () => {
                               </li>
 
                             </AnimatedContent>
+                    </div>
+            
                            )      
                        ))}        
                 </ol>
