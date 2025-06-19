@@ -115,7 +115,7 @@ const About = () => {
 
                               
           <div className="h-90 w-full md:w-1/2 flex flex-col items-center text-center max-sm:items-center
-                        bg-gray-100 shadow p-8 rounded-3xl hover:shadow-xl transition-shadow duration-300 max-sm:h-90">
+                        bg-gray-100 shadow p-8 rounded-3xl hover:shadow-xl transition-shadow duration-300 max-sm:h-110">
 
           <h1 className="text-2xs font-semibold font-mono capitalize mb-20 bg-purple-300/40 w-30 rounded-full border 
                        text-purple-600 border-purple-600 py-2 relative underline-line">
