@@ -85,7 +85,7 @@ const Intro = () => {
           </h1>
           <h1
             id="title-3"
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl max-sm:text-5xl max-lg:text-6xl font-bold text-white text-center w-full">
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl max-sm:text-4xl max-lg:text-6xl font-bold text-white text-center w-full">
             {'{'} Problem-Solver {'}'}
 
           </h1>

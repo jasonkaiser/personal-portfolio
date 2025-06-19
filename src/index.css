@@ -13,6 +13,7 @@ body::-webkit-scrollbar {
 }
 
 
+
 .underline-line::after {
   content: "";
   position: absolute;
@@ -125,7 +126,7 @@ h1.underline-line::before {
 
     .card {
 
-      @apply w-120 h-120 flex items-center bg-gray-50 justify-center rounded-2xl transition-colors duration-300 group-hover:bg-gray-200 shadow-md
+      @apply w-120 h-120 flex items-center bg-gray-50 justify-center rounded-2xl transition-colors duration-300 group-hover:bg-gray-200 shadow-md 
 
     }
 

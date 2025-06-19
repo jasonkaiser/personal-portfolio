@@ -14,7 +14,7 @@ const Navbar = () => {
 
         <div className="flex justify-center">
             <nav className="fixed z-50 backdrop-blur-md bg-white/10 border-b border-white/20 shadow-sm rounded-full mt-5 w-6xl 
-                            max-xl:w-4xl max-lg:w-3xl max-md:w-2xl sm:w-1xl max-sm:w-[380px] max-lg:bottom-7">
+                            max-xl:w-4xl max-lg:w-3xl max-md:w-2xl sm:w-1xl max-sm:w-[360px] max-lg:bottom-7">
 
                 <div className="flex items-center justify-between my-1 mx-20 max-lg:mx-10 max-md:mx-2">
 

@@ -22,7 +22,7 @@ const Main = () => {
         <h1 className="title max-sm:text-6xl max-sm:mb-10">Hi, I'm Jason Kaiser</h1>
 
 
-        <p className="secondary-title max-sm:mx-8 max-sm:text-[17px] flex">
+        <p className="secondary-title max-sm:mx-8 max-sm:text-[14px] flex">
 
           const role ={" "}
 

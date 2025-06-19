@@ -64,21 +64,21 @@ const Skills = () => {
       className="relative flex flex-col items-center bg-gray-100 mt-10"
     >
       <h1 className="section-title">Skills</h1>
-      <div className="space-y-10 w-5xl max-sm:max-w-110 max-lg:max-w-3xl max-md:max-w-2xl mb-10">
+      <div className="space-y-10 w-full max-w-5xl max-sm:max-w-110 max-lg:max-w-3xl max-md:max-w-2xl mb-10">
         {Object.entries(skills).map(([category, items]) => (
           <div key={category} className="p-4 rounded-lg text-center">
-            <h2 className="text-2xs font-semibold font-mono capitalize mb-7 text-purple-600 bg-purple-300/40 w-30 rounded-full border border-purple-600 py-2 relative underline-line">
+            <h2 className="text-2xs font-semibold font-mono capitalize mb-7 text-purple-600 bg-purple-300/40 w-30 rounded-full border border-purple-600 py-2 relative underline-line max-sm:ml-10 ">
               {category}
             </h2>
             <div
               className={`grid gap-4 ${getColsClass(
                 items.length
-              )} max-lg:grid-cols-1`}
+              )} max-lg:grid-cols-1 max-sm:flex-col max-sm:justify-self-center`}
             >
               {items.map((skill, index) => (
                 <div
                   key={index}
-                  className="group bg-white/10 p-4 text-center rounded-2xl shadow text-black flex flex-col items-center hover:border-t-1 hover:border-t-purple-600  hover:shadow-xl transition-shadow duration-300"
+                  className="group bg-white/10 p-4 text-center rounded-2xl shadow text-black flex flex-col items-center hover:border-t-1 hover:border-t-purple-600  hover:shadow-xl transition-shadow duration-300 max-sm:w-85"
                 >
                   {skillIcons[skill]}
                   <h1 className="text-gray-800 font-bold text-2xl mt-2">

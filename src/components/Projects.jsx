@@ -52,7 +52,7 @@ const Projects = () => {
                             >
                             <div
                                 key={item.id}
-                                className="card flex flex-col items-start justify-start rounded-2xl max-2xl:w-220 max-xl:w-190 max-lg:w-150 max-md:w-130 max-sm:w-110 bg-white/10 overflow-hidden">
+                                className="card flex flex-col items-start justify-start rounded-2xl max-2xl:w-220 max-xl:w-190 max-lg:w-150 max-md:w-130 max-sm:w-80 bg-white/10 overflow-hidden">
                                 <div
                                 className="h-[40%] bg-purple-300 border border-gray-300 w-full flex items-start justify-center p-3 bg-cover bg-center bg-no-repeat rounded-t-2xl"
                                 style={{ backgroundImage: `url('./project.png')` }}>
@@ -75,7 +75,7 @@ const Projects = () => {
                                     <p className="text-[13px] text-gray-400">{item.description}</p>
                                 </div>
 
-                                <div className="flex justify-end gap-2">
+                                <div className="flex flex-wrap justify-end gap-2 w-full max-sm:justify-center">
                                     {item.technologies.map((techno) => (
                                     <div
                                         key={techno}
