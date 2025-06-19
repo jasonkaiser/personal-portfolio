@@ -16,18 +16,18 @@ const Education = () => {
                 
                        {educationData.map((item => (
 
-                <div className="overflow-x-hidden">
+        
                     <AnimatedContent
-                        distance={240}
+                        distance={0}
                         direction="horizontal"
                         reverse={false}
-                        duration={0.7}
+                        duration={0.9}
                         ease="power3.out"
                         initialOpacity={0}
                         animateOpacity
                         scale={0.8}
                         threshold={0.1}
-                        delay={0.2}
+                        delay={0.1}
                         >
                      
                      <li key={item.id} className="group relative -ms-1.5 flex items-start gap-4">
@@ -63,7 +63,7 @@ const Education = () => {
                               </li>
 
                             </AnimatedContent>
-                    </div>
+             
             
                            )      
                        ))}        

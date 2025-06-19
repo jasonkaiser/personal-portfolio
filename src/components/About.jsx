@@ -39,10 +39,10 @@ const About = () => {
 
           <div className="overflow-x-hidden">
 <AnimatedContent
-                        distance={240}
+                        distance={0}
                         direction="horizontal"
                         reverse={true}
-                        duration={0.7}
+                        duration={1.2}
                         ease="power3.out"
                         initialOpacity={0}
                         animateOpacity
