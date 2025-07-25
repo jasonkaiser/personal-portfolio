@@ -1,12 +1,52 @@
-# React + Vite
+# 💼 React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, and fully responsive single-page portfolio website built with **React** and **Tailwind CSS**. This project showcases my skills, experience, and personal projects using a smooth and dynamic interface with animations and creative design elements.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# ✨ Features
 
-## Expanding the ESLint configuration
+- 🎨 Fully responsive layout with a modern, minimal design  
+- ⚛️ Built with React and styled using Tailwind CSS  
+- 🌀 Smooth animations using GSAP  
+- ⌨️ Typewriter effect for dynamic text headers  
+- 💡 Sections are dynamically rendered from a data array  
+- 📱 Optimized for all screen sizes (mobile, tablet, desktop)  
+- 🚀 Deployed and publicly accessible  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# 🛠️ Built With
+
+- [React 19](https://react.dev/)
+- [Tailwind CSS 4](https://tailwindcss.com/)
+- [GSAP](https://greensock.com/gsap/)
+- [Typewriter Effect](https://www.npmjs.com/package/typewriter-effect)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Bits](https://reactbits.dev)
+- [Vite](https://vitejs.dev/)
+
+---
+
+# Dynamic Sections
+
+Each section (About Me, Projects, Skills, Contact, etc.) is dynamically rendered using data arrays, making it easy to manage and update content without changing component logic.
+
+# Live Demo
+
+**Live Site:**  https://orca-app-txt83.ondigitalocean.app/
+
+
+# Local Machine Instructions
+
+To start this project on your local machine:
+
+- First, clone the repository to your desired folder
+```bash
+git clone https://github.com/jasonkaiser/react-portfolio.git
+npm install
+npm run dev
+```
+- Access: http://localhost:5173
+
+
