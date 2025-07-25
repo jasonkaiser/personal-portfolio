@@ -43,13 +43,13 @@ const Main = () => {
         </p>
 
         <div className="space-x-10 mt-10 flex justify-center">
-          <button className="bg-purple-500 rounded-full px-8 py-3 text-white hover:bg-purple-400 transition-colors duration-300">
+          <a href="#aboutme" className="bg-purple-500 rounded-full px-10 py-3 text-white text-center flex items-center justify-center hover:bg-purple-400 transition-colors duration-300">
             About Me
-          </button>
+          </a>
 
-          <button className="px-8 py-3 text-purple-500 border-2 rounded-full hover:bg-purple-500 hover:text-white transition-colors duration-300 border-purple-500">
+          <a href="#projects" className="px-8 py-3 text-purple-500 border-2 rounded-full hover:bg-purple-500 hover:text-white transition-colors duration-300 border-purple-500">
             View Projects
-          </button>
+          </a>
        
         </div>
             <div className="flex justify-center items-center space-x-6 mt-10">

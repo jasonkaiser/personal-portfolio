@@ -1,6 +1,6 @@
 const skills = {
   Frontend: ["React", "Tailwind"],
-  Backend: ["Java", "PHP", "MySQL"],
+  Backend: ["NodeJS", "PHP", "MySQL", "MongoDB"],
   Mobile: ["Kotlin"],
   Design: ["Figma", "Photoshop"],
 };

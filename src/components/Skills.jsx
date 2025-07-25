@@ -1,7 +1,7 @@
 import React from "react";
-import { FaFigma, FaJava, FaReact } from "react-icons/fa";
+import { FaFigma, FaJava, FaReact, FaNodeJs  } from "react-icons/fa";
 import skills from "../data/skillsData";
-import {SiTailwindcss, SiPhp, SiMysql, SiAdobephotoshop, SiKotlin,} from "react-icons/si";
+import {SiMongodb, SiTailwindcss, SiPhp, SiMysql, SiAdobephotoshop, SiKotlin,} from "react-icons/si";
 
 
 const skillIcons = {
@@ -15,9 +15,14 @@ const skillIcons = {
       <FaFigma className="skill-icon" />
     </div>
   ),
-  Java: (
+  NodeJS: (
     <div className="skill-icon-background">
-      <FaJava className="skill-icon" />
+      <FaNodeJs className="skill-icon" />
+    </div>
+  ),
+  MongoDB: (
+    <div className="skill-icon-background">
+      <SiMongodb className="skill-icon" />
     </div>
   ),
   PHP: (
@@ -45,6 +50,7 @@ const skillIcons = {
       <SiKotlin className="skill-icon" />
     </div>
   ),
+  
 };
 
 
